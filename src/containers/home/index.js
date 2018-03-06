@@ -37,10 +37,13 @@ const Home = props => (
         Go to about page via redux
       </button>
     </p>
+    <p>{props.browser.mediaType}</p>
+    <p>{JSON.stringify(props.browser)}</p>
   </div>
 );
 
 const mapStateToProps = state => ({
+  browser: state.browser,
   count: state.counter.count,
   isIncrementing: state.counter.isIncrementing,
   isDecrementing: state.counter.isDecrementing

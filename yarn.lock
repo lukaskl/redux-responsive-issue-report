@@ -1845,6 +1845,10 @@ core-js@^2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.1.tgz#ae6874dc66937789b80754ff5428df66819ca50b"
 
+core-js@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
+
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -4979,6 +4983,10 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
+mediaquery@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/mediaquery/-/mediaquery-0.0.3.tgz#387d61c10aa95ff4d6907f6aabdd22d7a898e03e"
+
 mem@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
@@ -6442,6 +6450,12 @@ reduce-function-call@^1.0.1:
   resolved "https://registry.yarnpkg.com/reduce-function-call/-/reduce-function-call-1.0.2.tgz#5a200bf92e0e37751752fe45b0ab330fd4b6be99"
   dependencies:
     balanced-match "^0.4.2"
+
+redux-responsive@^4.3.5:
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/redux-responsive/-/redux-responsive-4.3.5.tgz#16b0c8448f87796c7aa594016e825a392a943b9d"
+  dependencies:
+    mediaquery "0.0.3"
 
 redux-thunk@^2.2.0:
   version "2.2.0"
